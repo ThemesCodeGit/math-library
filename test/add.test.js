@@ -2,7 +2,7 @@ import { add } from '../src';
 
 describe('addition', () => {
   test('returns 0 without arguments', () => {
-    expect(add());
+    expect(add()).toBe(0);
   });
   test('returns correct value with correct arguments', () => {
     expect(add(2, 2)).toBe(4);
